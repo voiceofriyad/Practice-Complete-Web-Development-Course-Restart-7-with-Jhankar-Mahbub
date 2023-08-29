@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        * {
+            /* margin: 0; */
+        }
+        P{
+            color: red;
+        }
+        #fifth, li {
+            font-size: 26px;
+        }
+        .yellow, .holod {
+            background-color: yellow;
+        }
+        .bold {
+            font-weight: 800;
+        }
+        input {
+            font-size: 30px;
+        }
+        input[type = 'password'] {            
+            color: red;
+        }
+        .second {
+            color: aqua;
+        }
+        .blog {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <p>My First line Css</p>
+    <p class="yellow">My Second <span class="second">line Css</span></p>
+    <p>My Third line Css</p>
+    <p class="yellow bold">My Fourth line Css</p>
+    <p id="fifth" class="holod">My Fifth line Css</p>
+    <p class="bold">My Sixth line Css</p>
+    <p>My Seventh line Css</p>
+
+    <ol>
+        <li>Element Selector</li>
+        <li>ID Selector</li>
+        <li class="bold">Class Selector</li>
+        <li>Universal</li>
+    </ol>
+
+    <form action="">
+        <input type="text">
+        <input type="password" name="" id="">
+    </form>
+
+    <div class="blog">
+        <h3>My Blog</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus quas dignissimos voluptates eveniet animi, recusandae perspiciatis iure dicta autem explicabo consectetur quis tenetur maxime natus possimus deleniti quo sapiente illum?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus quas dignissimos voluptates eveniet animi, recusandae perspiciatis iure dicta autem explicabo consectetur quis tenetur maxime natus possimus deleniti quo sapiente illum?</p>
+
+    </div>
+</body>
+</html> 
