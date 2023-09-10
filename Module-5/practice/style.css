@@ -1,0 +1,216 @@
+/* common style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header style */
+header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left top;  
+}
+.nav-title {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.nav-title-r {
+    color: #FD6E0A;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 230px 47px 150px;
+}
+.nav-menu {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+ul > li {
+    list-style: none;
+}
+nav a{
+    text-decoration: none;    
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.btn-primary {
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 18px 35px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 30px 30px 0px 150px;
+}
+.banner-content {
+    max-width: 585px; 
+}
+.banner-greeting {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.banner-title {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.banner-description {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-bottom: 30px;
+}
+.profile-picture {
+    max-width: 500px; 
+    /* padding: 47px 38px 0px 163px; */
+}
+
+/* main section style */
+main {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+main section {
+    margin-top: 130px;
+}
+.about-me {
+    margin: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 131px 157px;
+}
+.about-me-title {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.about-me-description {
+    margin: 30px 0px;
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    /* width: 827px; */
+    line-height: 30px; /* 166.667% */
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info {
+    text-align: center;
+}
+.about-info-title {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+.about-info-container {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.what-do {
+    /* margin: 0 230px; */
+}
+.what-do-title {
+    color:#181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* margin-bottom: 30px; */
+}
+.what-do-description {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    /* margin-bottom: 50px; */
+    padding: 30px 150px;
+}
+.what-do-items-container {
+    display: flex;
+    gap: 24px;
+}
+.what-do-items {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);    
+    padding: 30px;
+}
+.what-do-items-title {
+    color: #181818;
+    /* text-align: center; */
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 30px 0;
+}
+.what-do-items-description {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
