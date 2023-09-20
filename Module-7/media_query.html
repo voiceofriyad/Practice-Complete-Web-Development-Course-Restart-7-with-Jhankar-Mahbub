@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+        .food {
+            border: 2px solid saddlebrown;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        .food img {
+            width: 100%;
+        }
+        /* smaller device */
+        @media screen and (max-width: 576px) {
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .food {
+                background-color: cadetblue;
+            }            
+        }
+        @media screen and (min-width: 576.1px) and (max-width: 992px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .food {
+                background-color: darkkhaki;
+            }            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="../assets/images/food.webp" alt="">
+            <h3>Food Item - 1</h3>
+            <p>price: $100</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptatum temporibus officia necessitatibus ipsam consequatur ad voluptates consequuntur assumenda porro?</p>
+            <button>buy Now</button>
+        </div>
+        <div class="food">
+            <img src="../assets/images/food.webp" alt="">
+            <h3>Food Item - 2</h3>
+            <p>price: $200</p>
+            <p>Dolor hic, rem, iusto asperiores voluptatem nesciunt nobis officiis eos necessitatibus quaerat quibusdam quam ipsam officia reiciendis sunt. Fugiat, et.</p>
+            <button>buy Now</button>
+        </div>
+        <div class="food">
+            <img src="../assets/images/food.webp" alt="">
+            <h3>Food Item - 3</h3>
+            <p>price: $300</p>
+            <p>Natus cupiditate nostrum facilis autem recusandae provident molestias ab impedit praesentium laboriosam ea saepe laborum, voluptate laudantium maxime, modi id?</p>
+            <button>buy Now</button>
+        </div>
+        <div class="food">
+            <img src="../assets/images/food.webp" alt="">
+            <h3>Food Item - 4</h3>
+            <p>price: $400</p>
+            <p>Inventore maiores odit labore, dolorem quod magnam veritatis nostrum fugiat repellat ea suscipit deleniti consequuntur delectus cupiditate cumque sed natus.</p>
+            <button>buy Now</button>
+        </div>
+        <div class="food">
+            <img src="../assets/images/food.webp" alt="">
+            <h3>Food Item - 5</h3>
+            <p>price: $500</p>
+            <p>Inventore quaerat, possimus, dignissimos rem magni non porro tempore vero sunt necessitatibus veniam! Maxime, totam laudantium? Voluptatum accusamus porro velit.</p>
+            <button>buy Now</button>
+        </div>
+        <div class="food">
+            <img src="../assets/images/food.webp" alt="">
+            <h3>Food Item - 6</h3>
+            <p>price: $600</p>
+            <p>Alias, odio quaerat? Magni sit delectus rerum enim eius sapiente totam ipsa similique eum, harum iure vero, iste cum debitis!</p>
+            <button>buy Now</button>
+        </div>
+        <div class="food">
+            <img src="../assets/images/food.webp" alt="">
+            <h3>Food Item - 7</h3>
+            <p>price: $700</p>
+            <p>Nihil quas, inventore molestiae sit earum consectetur ratione accusamus aliquid reiciendis aut ea consequatur magnam eligendi alias porro! Maxime, minima?</p>
+            <button>buy Now</button>
+        </div>
+        <div class="food">
+            <img src="../assets/images/food.webp" alt="">
+            <h3>Food Item - 8</h3>
+            <p>price: $800</p>
+            <p>Veniam cupiditate quae cum odio, harum odit vel illo consequuntur, error provident vero atque distinctio sit debitis in magnam unde.</p>
+            <button>buy Now</button>
+        </div>
+        <div class="food">
+            <img src="../assets/images/food.webp" alt="">
+            <h3>Food Item - 9</h3>
+            <p>price: $900</p>
+            <p>Quidem deserunt magnam voluptas sequi minus voluptatem cupiditate. Odit repellendus molestiae nesciunt quasi blanditiis sapiente necessitatibus nisi sunt repudiandae obcaecati.</p>
+            <button>buy Now</button>
+        </div>
+        <div class="food">
+            <img src="../assets/images/food.webp" alt="">
+            <h3>Food Item - 10</h3>
+            <p>price: $1000</p>
+            <p>Provident atque ratione perspiciatis, vel nostrum nemo sapiente aut tempora, distinctio, velit nisi modi fugit pariatur ex in iure accusantium.</p>
+            <button>buy Now</button>
+        </div>
+        <div class="food">
+            <img src="../assets/images/food.webp" alt="">
+            <h3>Food Item - 11</h3>
+            <p>price: $1100</p>
+            <p>Quo perspiciatis mollitia maiores quibusdam praesentium odio. Sed, voluptate excepturi unde provident quasi fugit, dignissimos rerum fuga odio ad debitis.</p>
+            <button>buy Now</button>
+        </div>
+        <div class="food">
+            <img src="../assets/images/food.webp" alt="">
+            <h3>Food Item - 12</h3>
+            <p>price: $1200</p>
+            <p>Nisi est nihil accusamus quas eaque! Fugit porro autem tenetur dolor ab placeat provident, vel numquam, quaerat perferendis temporibus. Hic.</p>
+            <button>buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
