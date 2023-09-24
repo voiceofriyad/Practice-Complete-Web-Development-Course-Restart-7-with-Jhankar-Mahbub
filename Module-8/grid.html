@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 150px);
+            gap: 10px;
+        }
+        .box {
+            background-color: gray;
+        }
+        #box-1 {
+            grid-row: span 5;
+        }
+        #box-11, #box-12 {
+            grid-column: span 3;
+        }
+        #box-6, #box-7, #box-9, #box-10 {
+            background-color: indianred;
+        }
+
+        .container-2 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .item {
+            background-color: yellowgreen;
+            border: 2px solid saddlebrown;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        #item-1, #item-6 {
+            grid-column: span 3;
+        }
+        #item-2 {
+            grid-row: span 2;
+        }
+        #item-3 {
+            grid-row: span 2;
+            width: 450px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box-1">Box - 1</div>
+        <div class="box" id="box-2">Box - 2</div>
+        <div class="box" id="box-3">Box - 3</div>
+        <div class="box" id="box-4">Box - 4</div>
+        <div class="box" id="box-5">Box - 5</div>
+        <div class="box" id="box-6">Box - 6</div>
+        <div class="box" id="box-7">Box - 7</div>
+        <div class="box" id="box-8">Box - 8</div>
+        <div class="box" id="box-9">Box - 9</div>
+        <div class="box" id="box-10">Box - 10</div>
+        <div class="box" id="box-11">Box - 11</div>
+        <div class="box" id="box-12">Box - 12</div>
+    </div>
+    <br> <br> <br>
+
+    <div class="container-2">
+        <div class="item" id="item-1">
+            <h2>The header</h2>
+        </div>
+        <div class="item" id="item-2">
+            <ul>
+                <li><a href="">Nav 1</a></li>
+                <li><a href="">Nav 2</a></li>
+                <li><a href="">Nav 3</a></li>
+            </ul>
+        </div>
+        <div class="item" id="item-3">
+            <h1>Main Article Area</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident laborum perspiciatis ipsum doloribus. Soluta suscipit expedita dicta non doloribus! Laboriosam commodi, aspernatur maiores porro quibusdam, accusantium architecto illum similique doloremque earum a! Id eveniet temporibus accusantium distinctio, voluptatibus animi vitae.</p>
+        </div>
+        <div class="item" id="item-4">
+            <h3>Sidebar</h3>
+        </div>
+        <div class="item" id="item-5">
+            <h3>Advertising</h3>
+        </div>
+        <div class="item" id="item-6">
+            <h3>The Footer</h3>
+        </div>
+    </div>
+</body>
+</html>

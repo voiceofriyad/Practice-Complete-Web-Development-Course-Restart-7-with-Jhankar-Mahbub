@@ -196,3 +196,42 @@ footer {
     background-color: #FFF;
     width: 80%;
 }
+
+/* Responsive styles */
+/* mobile devices */
+
+@media screen and (max-width: 576px) {
+    .header {
+        background-image: none;
+    }
+    .skills-container, .resume-container, footer, .about-info-container, .banner, nav, nav > ul {
+        flex-direction: column;
+    }
+    .banner, #what-i-do-description {
+        padding: 20px;
+    }
+    footer, .about {
+        padding: 10px;
+    }
+    .footer-column {
+        width: 100%;
+    }
+    .profile-picture {
+        width: 100%;
+    }
+    .btn-primary {
+        margin-bottom: 15px;
+    }
+    nav > ul {
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    footer {
+        padding: 30px;
+    }
+    .btn-primary {
+        margin-bottom: 15px;
+    }
+}
